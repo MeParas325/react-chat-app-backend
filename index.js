@@ -12,7 +12,7 @@ const server = http.createServer(app)
 const io = socketIO(server)
 
 app.use(cors({
-    origin: "https://react-chat-app-frontend-lyart.vercel.app",
+    origin: "https://react-chat-app-frontend-pi.vercel.app/",
     methods: ["POST", "GET"],
     credentials: true,
 }))
